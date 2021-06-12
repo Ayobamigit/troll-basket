@@ -1,0 +1,113 @@
+.banner-carousel{
+    font-family: var(--primaryFont);
+    padding: 10px 10px; 
+    z-index: 500;
+}
+
+.blue-banner{
+    background-color: #003277;
+    border-radius: 8px;
+    /* background: linear-gradient(179.33deg, #0350BB 0.57%, rgba(3, 80, 187, 0) 114.02%);
+    opacity: 0.3;
+    transform: matrix(-0.82, 0.32, -0.76, -0.9, 0, 0); */
+}
+
+.blue-banner-grid{
+    padding: 42px 24px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.orange-span{
+    color:#EE6F44;
+    /* font-weight: 500; */
+
+}
+
+.blue-content{
+    color: #fff;
+    font-size: 12px;
+    line-height: 19px;
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+}
+
+.blue-item{
+    margin-right: 50px;
+    
+}
+
+.style{
+    background: linear-gradient(179.33deg, #0350bb2d 0.57%, rgba(3, 80, 187, 0.397) 114.02%);
+    opacity: 0.3;
+    transform: matrix(0.82, -0.32, 0.76, 0.9, 0, 0);
+    width: 64.87px;
+    height: 122px;
+    position: absolute;
+    left: 55.46px;
+    top: 211px;
+    border-radius: 4px 36px 0 5px;
+}
+
+.style-ban{
+    border-radius: 12px 19px 0px 0px;
+    position: absolute;
+    width: 76.87px;
+    height: 100.2px;
+    left: 262.1px;
+    top: 236.34px;
+    background: linear-gradient(179.33deg, #0350bb4b 0.57%, rgba(3, 80, 187, 0) 114.02%);
+    opacity: 0.3;
+    transform: matrix(-0.82, 0.32, -0.76, -0.9, 0, 0);
+}
+
+.dot{
+    position: absolute;
+    width: 2.1px;
+    height: 2.1px;
+    border-radius: 100%;
+}
+
+.green-light{
+    left: 56.26px;
+    top: 35%;
+    background: #07D571;
+    opacity: 0.72;
+    transform: rotate(-18deg);
+}
+
+.green{
+    left: 91.26px;
+    top: 36%;
+    background: #07D571;
+    opacity: 0.95;
+}
+
+.red-dot{
+    left: 15px;
+    top: 40%;
+    background: #FF705E;
+    opacity: 0.72;
+}
+
+.orange-dot{
+    left: 25.26px;
+    top: 49%;
+    background: #EE6F44;
+    opacity: 0.84;
+}
+
+.yellow{
+    left: 139.26px;
+    top: 45%;
+    background: #FFC042;
+    opacity: 0.82;
+}
+
+.yellow-light{
+    left: 203.26px;
+    top: 42%;
+    background: #FFD175;
+    opacity: 0.91;
+}

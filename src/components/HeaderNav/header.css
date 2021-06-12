@@ -1,0 +1,21 @@
+.header-nav{
+    border-top: 2px solid #edf2f78c;
+    /* border-top: 3px solid #e5e5e559; */
+    border-bottom: 2px solid #edf2f78c;
+    padding: 11px 10px;
+    font-family: var(--primaryFont);
+}
+
+.header-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.header-grid-item{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.br{
+    border-right: 01px solid #CBD6E0;
+}

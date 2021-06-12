@@ -1,0 +1,7 @@
+.category-div{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-family: var(--primaryFont);
+    padding: 20px 26px;
+    column-gap: 20px;
+}

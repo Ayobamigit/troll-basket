@@ -1,0 +1,12 @@
+.nav-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: var(--primaryFont);
+    padding: 16px;
+    padding-right: 18px;
+}
+
+.flex{
+    display: flex;
+    justify-content: flex-end;
+}

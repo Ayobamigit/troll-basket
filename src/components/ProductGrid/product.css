@@ -1,0 +1,47 @@
+.product-grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+    column-gap: 10px;
+    font-family: var(--primaryFont);
+    padding: 15px;
+    /* margin-top: 40px; */
+    /* margin-bottom: 80px; */
+    /* text-align: center; */
+}
+
+.product-grid-item{
+    cursor: pointer;
+}
+
+.img-size{
+    width: 102px;
+    height: 98px;
+}
+
+.prod-desc{
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-weight: 300;
+}
+
+.price{
+    font-size: 12px;
+    line-height: 18px;  
+    color: #071827;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.qty{
+    color: #56636D;
+}
+
+.name{
+    color: #718596;
+}
