@@ -5,13 +5,15 @@ import {ReactComponent as Home} from '../../assets/icon/home.svg';
 import {ReactComponent as Wallet} from '../../assets/icon/wallet.svg';
 import {ReactComponent as Deal} from '../../assets/icon/deals.svg';
 import {ReactComponent as More} from '../../assets/icon/menu.svg';
+import { useHistory } from 'react-router';
 
 
 const FooterNav = () => {
+    const history = useHistory();
     return (
         <div className="footer">
             <div className="footer-grid">
-                <div className="footer-grid-item">
+                <div className="footer-grid-item" onClick={()=>history.push('/')}>
                     <div className="center">
                         <Home className="icon-home" />
                     </div>

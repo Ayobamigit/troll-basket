@@ -11,23 +11,23 @@ const CartItem = (props) => {
     return (
         <div className="cart-item">
             <div className="cart-flex">
-                <img src={Coke} alt="img" className="cart-img mr-16" />
+                <img src={props.image} alt="img" className="cart-img mr-16" />
                 <div className="cart-tag">
                     <h3 className="prod-header">{props.name}</h3>
-                    <p className="prod-price sm">N18,099.09</p>
+                    <p className="prod-price sm">₦ {props.price}</p>
                 </div>
             </div>
             <Divider />
             <div className="desc mt-12">
-                <div className="desc">
+                <div className="desc pointer" onClick={props.onDeleteItem}>
                     <Delete className="mr-13" /> <p className="prod-header">Delete</p> 
                 </div>
                 <div className="desc"> 
-                    <div className="cart-border">
+                    <div className="cart-border pointer" onClick={props.onDecreaseCart}>
                         <Remove />
                     </div>
-                    <p className="cart-qty">24</p>
-                    <div className="cart-border">
+                    <p className="cart-qty">{props.qty}</p>
+                    <div className="cart-border pointer" onClick={props.onIncreaseCart}>
                         <Add />
                     </div>
                 </div>

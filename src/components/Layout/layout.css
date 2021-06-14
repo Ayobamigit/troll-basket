@@ -4,3 +4,8 @@
     z-index: 500;
     background-color: #fff;
 } 
+
+/* .layout{
+    display: grid;
+    grid-template-columns: auto 375px auto;
+} */

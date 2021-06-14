@@ -2,8 +2,10 @@ import React from 'react'
 import Time from '../../components/TimeBattery/Time';
 import {ReactComponent as Check} from '../../assets/icon/glossy.svg';
 import './checkout.css'
+import { useHistory } from 'react-router';
 
 const Checkout = () => {
+    const history = useHistory();
     return (
         <div className="checkout">
             <Time className="icon-white" timeWhite="time-white" />
@@ -16,7 +18,7 @@ const Checkout = () => {
                     <p className="check-text">Your checkout is now successful.</p>
                 </div>
 
-                <div className="btn-white top">
+                <div className="btn-white top" onClick={()=>history.push("/")}>
                     Got it
                 </div>
             </div>

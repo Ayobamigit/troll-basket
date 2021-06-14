@@ -19,3 +19,18 @@
 .br{
     border-right: 01px solid #CBD6E0;
 }
+
+.selectForm{
+    border: none;
+    /* margin-top: 3px;
+    margin-bottom: 0; */
+    font-size: 12px;
+    line-height: 18px;
+    color: #212C3D;
+    font-weight: 400;
+    font-family: var(--primaryFont);
+}
+
+.selectForm:focus{
+  outline: none;
+}

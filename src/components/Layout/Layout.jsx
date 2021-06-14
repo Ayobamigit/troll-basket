@@ -5,7 +5,7 @@ import './layout.css'
 
 const Layout = (props) => {
     return (
-        <>
+        <div className="layout">
            <div id="header">
                <Time />
             </div>
@@ -17,7 +17,7 @@ const Layout = (props) => {
             <div>
                 <FooterNav />
             </div>
-        </>
+        </div>
     )
 }
 
