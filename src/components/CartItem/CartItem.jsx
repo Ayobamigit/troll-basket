@@ -4,7 +4,7 @@ import Divider from '../Divider/Divider';
 import {ReactComponent as Delete} from '../../assets/icon/delete.svg';
 import {ReactComponent as Add} from '../../assets/icon/plus.svg';
 import {ReactComponent as Remove} from '../../assets/icon/minus.svg';
-import Coke from '../../assets/img/coke.png';
+// import Coke from '../../assets/img/coke.png';
 
 
 const CartItem = (props) => {

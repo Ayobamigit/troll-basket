@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import './header.css';
 import {ReactComponent as Map} from '../../assets/icon/map.svg';
-import {ReactComponent as Down} from '../../assets/icon/down.svg';
+// import {ReactComponent as Down} from '../../assets/icon/down.svg';
 import {ReactComponent as Cart} from '../../assets/icon/cart.svg';
 import {ReactComponent as Order} from '../../assets/icon/order.svg';
 import { useHistory } from 'react-router';
